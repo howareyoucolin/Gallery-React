@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import './sass/style.scss';
+
 
 const Index = () => {
   return <div className="wrapper">
