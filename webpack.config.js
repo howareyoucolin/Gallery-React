@@ -21,10 +21,11 @@ module.exports = {
 					loader: "babel-loader"
 				}
 			},
-			{
-				test: /\.css$/,
-				use: ["style-loader", "css-loader"]
-			}
+            {
+				test:/\.(s*)css$/,
+				use:['style-loader','css-loader', 'sass-loader']
+            }
+
 		]//Rules end;
      },
 	 plugins: [htmlPlugin],
